@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>Mac App Store Search</string>
+	<key>Extension Identifier</key>
+	<string>com.ken-g.com.popclip.extension.mas</string>
+	<key>Extension Description</key>
+	<string>Search Mac App Store in a web browser with the selected text.</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>URL</key>
+			<string>macappstores://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?mt=12&amp;ign-mscache=1&amp;q={popclip text}</string>
+			<key>Image File</key>
+			<string>icon.png</string>
+			<key>Title</key>
+			<string>Mac App Store Search</string>
+		</dict>
+	</array>
+</dict>
+</plist>
